@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Web Portfolio</title>
+    <link rel="stylesheet" href="./../assets/img/estilos.css" />
+    <link rel="icon" href="https://marcago.com/wp-content/uploads/2022/03/portafolio-creativo-768x467-1.jpg">
+</head>
+<body>
+    <header>
+        
+        <nav aria-label="Primary navigation">
+            <img src="https://marcago.com/wp-content/uploads/2022/03/portafolio-creativo-768x467-1.jpg" width="100" alt="">
+            <h1>My Portfolio</h1>
+            <ul>
+                <li><a href="#about" aria-label="About Me section">About Me</a></li>
+                <li><a href="#projects" aria-label="Projects section">Projects</a></li>
+                <li><a href="#contact" aria-label="Contact section">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="about" class="section-container" aria-labelledby="about-title">
+            <h2 id="about-title">About Me</h2>
+            <p>
+                Hello, My name is Elias Cardenas, I'm 19 years old, I'm a creative developer passionate about building clean and modern digital experiences.
+                I specialize in frontend web development and am always open to new technologies and learning opportunities.
+            </p>
+        </section>
+
+        <section id="projects" class="section-container" aria-labelledby="projects-title">
+            <h2 id="projects-title">Projects</h2>
+            <div class="projects-grid">
+                <article class="project-card">
+                    <h3>Project 1</h3>
+                    <p>Product validation system in python. A modern, simple, and functional app.</p>
+                    <a href="https://github.com/Elias-Cardenas-Coder/sistema_validacion_productos" class="btn-link" target="_blank" rel="noopener" aria-label="See more about Project 1">See More</a>
+                </article>
+                <article class="project-card">
+                    <h3>Project 2</h3>
+                    <p>Grading system in python. Simple and elegant design.</p>
+                    <a href="https://github.com/Elias-Cardenas-Coder/sistema_de_calificaciones" class="btn-link" target="_blank" rel="noopener" aria-label="See more about Project 2">See More</a>
+                </article>
+                <article class="project-card">
+                    <h3>Project 3</h3>
+                    <p>Inventory management in python. Using innovative technologies.</p>
+                    <a href="https://github.com/Elias-Cardenas-Coder/Gestion_de_inventario" class="btn-link" target="_blank" rel="noopener" aria-label="See more about Project 3">See More</a>
+                </article>
+            </div>
+        </section>
+
+        <section id="contact" class="section-container" aria-labelledby="contact-title">
+            <h2 id="contact-title">Contact</h2>
+            <p>Want to work with me? Reach out at:</p>
+            <address>
+                <ul class="contact-list">
+                    <li>Email: <a href="mailto:elias.cardenas0501@gmail.com">elias.cardenas0501@gmail.com</a></li>
+                    <li>Contact number: +57 (300)647-35-54 </li>
+                    <li>GitHub: <a href="https://github.com/Elias-Cardenas-Coder" target="_blank" rel="noopener">github.com/Elias-Cardenas-Coder</a></li>
+                </ul>
+            </address>
+        </section>
+
+        <section class="content">
+            <h2>CSS selectors and spicifity</h2>
+            <div class="box highlight" id="special">This box is special</div>
+        </section>
+
+        <section class="visual-effects">
+            <h2>Visual customization</h2>
+            <div class="box-visual">This box has shadow and border!</div>
+            <div class="rotate-box">Rotated box</div>
+        </section>
+
+        <section class="interactivity">
+            <h2>Interactive elements</h2>
+            <a href="#">Hover over me!</a>
+        </section>
+    </main>
+    <footer>
+        <p>© 2025 My Portfolio. All rights reserved.</p>
+    </footer>
+</body>
+</html>
